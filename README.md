@@ -19,6 +19,7 @@ main 버전은 파일 경로가 main.py 파일이 있는 경로
 ```sh
 pip3 install googletrans==3.1.0a0  
 ```
+코랩버전에선 입력할 필요 없이 코드 그대로 복붙하면, 전부 OK
 
 ## 실행법
 colab 버전은 코랩에서 리눅스 루트경로에 en_us.json 파일을 업로드.  
