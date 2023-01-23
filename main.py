@@ -17,7 +17,10 @@ for a in data:
 
 for en in en_us:
   # src='en' 부분이 원문, dest='ko'부분이 번역문, src 부분을 바꾸거나 지우면 그 언어로 가능.
-  ko = Translator().translate(en, src='en', dest='ko').text
+  if en != "":
+    ko = Translator().translate(en, src='en', dest='ko').text
+  else:
+    ko = ""
   ko_kr.append(ko)
 
 i = 0
